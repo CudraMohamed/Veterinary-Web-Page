@@ -8,16 +8,10 @@ ul{
 }
 nav{
     margin: 3% 7%;
-    /* top: 0;
-    left: 0; */
-    /* width: 100%; */
-    /* padding: 14px 16px; */
-    /* box-sizing: border-box; */
 }
 nav ul{
     list-style: none;
     float: right;
-    /* display: flex; */
     margin: 0;
     padding: 0;
     
@@ -73,7 +67,7 @@ h3 {
       margin: 41px 0px 0px 0px;
   } 
 .fa-circle-play{
-    font-size: 53px;
+    font-size: 50px;
     position: relative;
     left: 5%;
     top: 15px;
@@ -95,7 +89,7 @@ h3 {
  }
  .does h5{
      color: rgb(43, 42, 46);
-     font-size: 40px;
+     font-size: 47px;
      padding-left: 7%;
  }
  .does h3{
@@ -111,7 +105,6 @@ h3 {
     padding-top: 5%; 
     padding-bottom: 8%;
  }
-
  .row1 .box1a{
     height: 290px;
     width: 320px; 
@@ -121,11 +114,6 @@ h3 {
     background-color: white;
     border: none;
     border-radius: 13px;
- }
- .fa-regular{
-     font-size: 35px;
-     position: relative;
-     color: #00a3a3;
  }
  .row1 .box1b{
     height: 290px;
@@ -230,7 +218,7 @@ h3 {
  }
  .said h5{
     color: rgb(43, 42, 46);
-    font-size: 40px;
+    font-size: 45px;
     padding-left: 7%;
 }
 .said h3{
@@ -241,6 +229,18 @@ h3 {
    margin-right: 10%;
    margin-top: -10%;
 }
+.qualified h5{
+    color: rgb(43, 42, 46);
+    font-size: 40px;
+    padding-left: 7%;
+    margin-top: -4%;
+}
+.qualified h3{
+   color: #00a3a3;
+   font-size: 19px;
+   display: flex;
+   margin: -8% 10% 0% 81.5%;
+}
 .row3{
     display: flex;
     padding-bottom: 10%;
@@ -249,7 +249,7 @@ h3 {
     height: 570px;
     width: 699px; 
     margin-right: 0.1%;
-    margin-top: 6%;
+    margin-top: 1%;
     border: 2px solid;
     background-color: white;
     border: none;
@@ -258,7 +258,7 @@ h3 {
     height: 570px;
     width: 699px; 
     margin-left: 0.1%;
-    margin-top: 6%;
+    margin-top: 1%;
     border: 2px solid;
     background-color: white;
     border: none;
@@ -299,6 +299,7 @@ h3 {
  .names{
      display: flex;
      margin-right: 7%;
+     /* margin-left: 7%; */
  }
  .name1{
     margin-left: 5%;
@@ -306,7 +307,7 @@ h3 {
  }
  .name2{
     margin-right: 10%;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     margin-top: 3%;
  } 
  .name3{
@@ -315,37 +316,219 @@ h3 {
  }
 .search-bar{
     height: 250px;
-    width: 500px; 
+    width: 1000px; 
+    margin-right: 7%;
     margin-left: 7%;
     margin-top: 6%;
     border: 2px solid;
     background-color: #E9FAFC;
     border: none;
-    padding: 70px;
-    padding-left: 400px;
-    padding-right: 250px;
+    padding: 70px 70px 20px 70px;
     border-radius: 5px;
+}
+.search-bar h3{
+    font-size: 50px;
+    color: rgb(43, 42, 46);
+    padding-left: 19%;
+    display: flex;
+    margin: 0px 247px 0px 0px;
 }
 .bar1{
     height: 50px;
     width: 600px; 
-    margin-left: -45%;
-    margin-top: 6%;
+    margin-left: 10%;
+    margin-top: 1%;
     border: 2px solid;
     background-color: white;
     border: none;
-    padding: 20px 150px 20px 50px;
+    padding: 20px 150px 50px 50px;
     border-radius: 5px;
 }
-.bar1 span{
-    /* background-color: #00a3a3; */
-    /* padding-bottom: 0%; */
-      font-size: 30px;
-      /* color: #e7feff;
-      border-radius: 5px;
-      border: none; */
-      /* margin: 41px 0px 0px 0px; */
+.bar1 button{
+    padding: 1.8% 5%;
+    background-color: #00a3a3;
+    font-size: 19px;
+    color: #e7feff;
+    border-radius: 15px;
+    border: none;
+    margin: -10px -170px 0px 60px;
+    padding: 20px 50px 20px 50px;
+ }
+ .box1a button{
+     font-size: 40px;
+     margin: 45px 0px 0px 21px;
+     border-radius: 360px;
+     border: none;
+     background-color:  #E9FAFC;
+     
+ }
+ .fa-caret-square-o-up{
+     font-size: 25px;
+     margin: 10px 15px 15px 15px;
+     color:  #00a3a3;
+ }
+ .box1a h4{
+    font-size: 23px;
+    margin: 45px 0px 0px 21px;
+    color: rgb(43, 42, 46);
+ }
+ .box1a h5{
+    font-size: 15px;
+    margin: 0px 0px 0px 25px;
+    color: rgb(142, 140, 148);
+ }
+ .box1b button{
+    font-size: 40px;
+    margin: 45px 0px 0px 21px;
+    border-radius: 360px;
+    border: none;
+    background-color:  #E9FAFC;
+    
+}
+ .fa-plus{
+    font-size: 25px;
+    margin: 10px 15px 15px 15px;
+    color:  #00a3a3;
+}
+.box1b h4{
+   font-size: 23px;
+   margin: 45px 0px 0px 21px;
+   color: rgb(43, 42, 46);
+}
+.box1b h5{
+   font-size: 15px;
+   margin: 0px 0px 0px 25px;
+   color: rgb(142, 140, 148);
+}
+.box1c button{
+    font-size: 40px;
+    margin: 45px 0px 0px 21px;
+    border-radius: 360px;
+    border: none;
+    background-color:  #E9FAFC;
+    
+}
+ .fa-joomla{
+    font-size: 25px;
+    margin: 10px 15px 15px 15px;
+    color:  #00a3a3;
+}
+.box1c h4{
+   font-size: 23px;
+   margin: 45px 0px 0px 21px;
+   color: rgb(43, 42, 46);
+}
+.box1c h5{
+   font-size: 15px;
+   margin: 0px 0px 0px 25px;
+   color: rgb(142, 140, 148);
+}
+.box2a button{
+    font-size: 40px;
+    margin: 45px 0px 0px 21px;
+    border-radius: 360px;
+    border: none;
+    background-color:  #E9FAFC; 
+}
+ .fa-medkit{
+    font-size: 25px;
+    margin: 10px 15px 15px 15px;
+    color:  #00a3a3;
+}
+.box2a h4{
+   font-size: 23px;
+   margin: 45px 0px 0px 21px;
+   color: rgb(43, 42, 46);
+}
+.box2a h5{
+   font-size: 15px;
+   margin: 0px 0px 0px 25px;
+   color: rgb(142, 140, 148);
+}
+.box2b button{
+    font-size: 40px;
+    margin: 45px 0px 0px 21px;
+    border-radius: 360px;
+    border: none;
+    background-color:  #E9FAFC;
+    
+}
+ .fa-paw{
+    font-size: 25px;
+    margin: 10px 15px 15px 15px;
+    color:  #00a3a3;
+}
+.box2b h4{
+   font-size: 23px;
+   margin: 45px 0px 0px 21px;
+   color: rgb(43, 42, 46);
+}
+.box2b h5{
+   font-size: 15px;
+   margin: 0px 0px 0px 25px;
+   color: rgb(142, 140, 148);
+}
+.box2c button{
+    font-size: 40px;
+    margin: 45px 0px 0px 21px;
+    border-radius: 360px;
+    border: none;
+    background-color:  #E9FAFC;
+    
+}
+ .fa-hospital-o{
+    font-size: 25px;
+    margin: 10px 15px 15px 15px;
+    color:  #00a3a3;
+}
+.box2c h4{
+   font-size: 23px;
+   margin: 45px 0px 0px 21px;
+   color: rgb(43, 42, 46);
+}
+.box2c h5{
+   font-size: 15px;
+   margin: 0px 0px 0px 25px;
+   color: rgb(142, 140, 148);
 }
 .footer{
     display: flex;
 }
+.quote-comment{
+    display: flex;
+
+}
+.fa-quote-left{
+    font-size: 90px;
+   margin: 20px 15px 15px 15%;
+   color: #e7feff;
+}
+.quote-comment .fa-arrow-right{
+   color: #00a3a3 ;
+   margin: 0% 3% 0% 50%;
+}
+.box3b h3{
+    margin: 20px 15px 15px 50%;
+   color: #00a3a3;
+}
+.box3a h5{
+    font-size: 24px;
+    margin: 0px 0px 0px 15%;
+    color: rgb(43, 42, 46);
+ }
+.box3a h4{
+    font-size: 20px;
+    margin: 45px 0px 0px 15%;
+    color: rgb(142, 140, 148);
+ }
+ .box3b h5{
+    font-size: 24px;
+    margin: 0px 0px 0px 15%;
+    color: rgb(43, 42, 46);
+ }
+.box3b h4{
+    font-size: 20px;
+    margin: 45px 0px 0px 15%;
+    color: rgb(142, 140, 148);
+ }
+ 
