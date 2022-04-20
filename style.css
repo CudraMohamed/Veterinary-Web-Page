@@ -606,20 +606,28 @@ h3 {
 .fa-facebook{
     color: rgb(237, 237, 243);
     background-color: rgb(73, 73, 207);
-    border: 2px solid;
+    border: 1px solid;
+    padding: 3%;
+    border-radius: 85px;
 }
 .fa-twitter{
     color: rgb(237, 237, 243);
     background-color: rgb(73, 176, 207);
-    border: 2px solid;
+    border: 1px solid;
+    padding: 3%;
+    border-radius: 85px;
 }
 .fa-google-plus{
     color: rgb(243, 237, 237);
-    background-color: rgb(207, 78, 73);
-    border: 2px solid;
+    background-color: rgb(218, 27, 21);
+    border: 1px solid;
+    padding: 3%;
+    border-radius: 85px;
 }
 .fa-linkedin{
     color: rgb(237, 237, 243);
     background-color: rgb(7, 7, 83);
-    border: 2px solid;
+    border: 1px solid;
+    padding: 3%;
+    border-radius: 85px;
 }
